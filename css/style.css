@@ -92,7 +92,7 @@ body {
     font-weight: 600;
     text-decoration: none;
     padding: 1.6rem 3.2rem;
-    border-radius: 150px;
+    border-radius: 9px;
     transition: 0.5s;
 
 }
@@ -126,7 +126,7 @@ body {
 /* HEADER */
 /*********************************/
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,8 +135,46 @@ body {
     height: 9.6rem;
 }
 
-.logo{
-    height: 2.2rem;;
+.logo {
+    height: 2.2rem;
+}
+
+/*********************************/
+/* HERO SECTION */
+/*********************************/
+
+.main-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 3.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #333;
+    transition: 0.5s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #cf711f;
+}
+
+.nav-cta:link,.nav-cta:visited{
+    background-color: #e67e22;
+    color: white;
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    transition: 0.5s;
+}
+
+.nav-cta:hover,.nav-cta:active{
+    background-color:#cf711f;
 }
 
 /*********************************/
@@ -170,34 +208,34 @@ body {
 }
 
 
-.delivered-meals{
+.delivered-meals {
     margin-top: 8rem;
     display: flex;
     align-items: center;
     gap: 1.6rem;
 }
 
-.delivered-images{
+.delivered-images {
     display: flex;
 }
 
-.delivered-images img{
+.delivered-images img {
     height: 4.8rem;
     width: 4.8rem;
     border-radius: 50%;
     margin-right: -1.6rem;
 }
 
-.delivered-images img:last-child{
+.delivered-images img:last-child {
     margin: 0;
 }
 
-.delivered-text{
+.delivered-text {
     font-size: 1.8rem;
     font-weight: 600;
 }
 
-.delivered-text span{
-    color:#e67e22;
+.delivered-text span {
+    color: #e67e22;
     font-weight: 700;
 }
