@@ -73,14 +73,36 @@ body{
     color: #555;
 }
 
+.section-hero{
+    background-color: #fdf2e9;
+    padding: 9.6rem;
+}
+
 .hero{
     max-width: 130rem;
     margin: 0 auto;
     display: grid;
+    gap: 9.6rem;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .hero-img{
     width: 100%;
+}
+
+.heading-primary{
+    font-size: 5.2rem;
+    color: #333;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+
+.hero-description{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.2rem;
 }
 
