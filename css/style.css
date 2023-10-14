@@ -73,23 +73,9 @@ body {
     color: #555;
 }
 
-.section-hero {
-    background-color: #fdf2e9;
-    padding: 9.6rem;
-}
-
-.hero {
-    max-width: 130rem;
-    margin: 0 auto;
-    display: grid;
-    gap: 9.6rem;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-
-.hero-img {
-    width: 100%;
-}
+/*********************************/
+/* GENERAL REUSABLE COMPONENT */
+/*********************************/
 
 .heading-primary {
     font-size: 5.2rem;
@@ -98,12 +84,6 @@ body {
     line-height: 1.05;
     letter-spacing: -0.5px;
     margin-bottom: 3.2rem;
-}
-
-.hero-description {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 4.2rem;
 }
 
 .btn:link,
@@ -140,5 +120,84 @@ body {
 .btn--outline:active {
     background-color: #fdf2e9;
     color: #333;
+}
 
+/*********************************/
+/* HEADER */
+/*********************************/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4.8rem;
+    background-color: #fdf2e9;
+    height: 9.6rem;
+}
+
+.logo{
+    height: 2.2rem;;
+}
+
+/*********************************/
+/* HERO SECTION */
+/*********************************/
+
+
+.section-hero {
+    background-color: #fdf2e9;
+    padding: 1.2rem 0 9.6rem 0;
+}
+
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    gap: 9.6rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.2rem;
+}
+
+
+.delivered-meals{
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.delivered-images{
+    display: flex;
+}
+
+.delivered-images img{
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+}
+
+.delivered-images img:last-child{
+    margin: 0;
+}
+
+.delivered-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.delivered-text span{
+    color:#e67e22;
+    font-weight: 700;
 }
