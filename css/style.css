@@ -56,29 +56,29 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     font-family: sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
 }
 
-.section-hero{
+.section-hero {
     background-color: #fdf2e9;
     padding: 9.6rem;
 }
 
-.hero{
+.hero {
     max-width: 130rem;
     margin: 0 auto;
     display: grid;
@@ -87,11 +87,11 @@ body{
     align-items: center;
 }
 
-.hero-img{
+.hero-img {
     width: 100%;
 }
 
-.heading-primary{
+.heading-primary {
     font-size: 5.2rem;
     color: #333;
     font-weight: 700;
@@ -100,9 +100,44 @@ body{
     margin-bottom: 3.2rem;
 }
 
-.hero-description{
+.hero-description {
     font-size: 2rem;
     line-height: 1.6;
     margin-bottom: 4.2rem;
 }
 
+.btn:link,
+.btn:visited {
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1.6rem 3.2rem;
+    border-radius: 150px;
+    transition: 0.5s;
+    
+}
+
+.btn--full:link,
+.btn--full:visited {
+    background-color: #e67e22;
+    color: #ffffff;
+    margin-right: 1.2rem;
+}
+
+.btn--full:hover,
+.btn--full:active {
+    background-color: #cf711f;
+    color: #ffffff;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+    background-color: #fdf2e9;
+    color: #333;
+
+}
