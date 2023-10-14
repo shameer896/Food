@@ -77,13 +77,31 @@ body {
 /* GENERAL REUSABLE COMPONENT */
 /*********************************/
 
-.heading-primary {
-    font-size: 5.2rem;
+.heading-primary,.heading-secondary{
     color: #333;
-    font-weight: 700;
     line-height: 1.05;
     letter-spacing: -0.5px;
+}
+
+.heading-primary {
+    font-size: 5.2rem;
+    font-weight: 700;
     margin-bottom: 3.2rem;
+}
+
+.heading-secondary{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+}
+
+.subheading{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #e67e22;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
 }
 
 .btn:link,
@@ -120,6 +138,21 @@ body {
 .btn--outline:active {
     background-color: #fdf2e9;
     color: #333;
+}
+
+.container{
+    max-width: 120rem;
+    padding: 0 9.6rem;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2-col{
+    grid-template-columns: repeat(2,1fr);
 }
 
 /*********************************/
@@ -165,7 +198,8 @@ body {
     color: #cf711f;
 }
 
-.nav-cta:link,.nav-cta:visited{
+.nav-cta:link,
+.nav-cta:visited {
     background-color: #e67e22;
     color: white;
     padding: 1.2rem 2.4rem;
@@ -173,8 +207,9 @@ body {
     transition: 0.5s;
 }
 
-.nav-cta:hover,.nav-cta:active{
-    background-color:#cf711f;
+.nav-cta:hover,
+.nav-cta:active {
+    background-color: #cf711f;
 }
 
 /*********************************/
@@ -238,4 +273,17 @@ body {
 .delivered-text span {
     color: #e67e22;
     font-weight: 700;
+}
+
+/*********************************/
+/* HOW IT WORKS SECTION */
+/*********************************/
+
+.section-how{
+    padding: 9.6rem 0;
+
+}
+
+.step-img{
+    width: 50%;
 }
