@@ -215,7 +215,6 @@
     background-image: linear-gradient(to right bottom, #1f4270, #062D60);
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
     border-radius: 11px;
-    height: 50rem;
     overflow: hidden;
 }
 
@@ -246,4 +245,41 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 2.4rem;
     column-gap: 3.2rem;
+}
+
+.contact-us-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.contact-us-form input 
+,.contact-us-form select{
+    width: 100%;
+    font-size: 1.8rem;
+    font-family: inherit;
+    padding: 1.2rem;
+    border: none;
+    background-color: #cee2fc;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.btn-form {
+    background-color: #0A5AC2;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.2rem 3.2rem;
+    border-radius: 9px;
+    transition: 0.5s;
+    align-self: end;
+    transition: ;
+}
+
+.btn-form:hover{
+    background-color: #cee2fc;
+    color: #555;
 }
