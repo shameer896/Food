@@ -224,3 +224,26 @@
     background-size: cover;
     background-position: center;
 }
+
+.contact-us .heading-secondary {
+    color: white;
+    margin-bottom: 3.2rem;
+}
+
+.contact-us-text-box {
+    color: white;
+    padding:4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.contact-us-text{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+}
+
+.contact-us-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.4rem;
+    column-gap: 3.2rem;
+}
