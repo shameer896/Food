@@ -202,6 +202,38 @@
 }
 
 /*********************************/
+/* SERVICES SECTION */
+/*********************************/
+
+.section-services {
+    padding: 9.8rem 0;
+}
+
+.service-card{
+    box-shadow: 0 1.4rem 2.8rem rgb(0, 0, 0,0.1);
+    border-radius: 11px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-img{
+    width: 100%;
+}
+
+.card-text{
+    padding: 1.8rem;
+}
+
+.service-desc{
+    line-height: 1.6;
+    font-size: 1.6rem;
+}
+
+
+
+
+/*********************************/
 /* CONTACT US SECTION */
 /*********************************/
 

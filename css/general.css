@@ -166,3 +166,8 @@ body {
 .grid--footer {
     grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
 }
+
+.grid--4-col {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.8rem;
+}
