@@ -208,6 +208,12 @@
     padding: 9.8rem 0;
 }
 
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.8rem;
+}
+
 .service-card {
     box-shadow: 0 1.4rem 2.8rem rgb(0, 0, 0, 0.1);
     border-radius: 11px;

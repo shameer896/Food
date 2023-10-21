@@ -21,7 +21,7 @@
 /*********************************/
 
 @media (max-width: 75em) {
-    html{
+    html {
         font-size: 56.25%;
     }
 
@@ -30,7 +30,7 @@
         row-gap: 6.4rem;
     }
 
-    .header{
+    .header {
         padding: 0 3.2rem;
     }
 
@@ -45,12 +45,66 @@
     .heading-secondary {
         font-size: 3.6rem;
     }
-    
+
     .heading-tertiary {
         font-size: 2.4rem;
     }
 
     .testimonial-container {
         padding: 9.6rem 3.2rem;
+    }
+}
+
+/*********************************/
+/* BELOW 944PX (TABLETS) */
+/*********************************/
+
+@media (max-width: 59em) {
+    html {
+        font-size: 50%;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+        gap: 6.4rem;
+    }
+
+    .hero-text-box,
+    .hero-image-box {
+        text-align: center;
+    }
+
+    .delivered-meals{
+        justify-content: center;
+    }
+
+    .hero-img {
+        width: 60%;
+    }
+
+    .step-number {
+        font-size: 7.4rem;
+    }
+
+    .section-testimonials {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .service-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.4rem;
+    }
+
+    .contact-us {
+        grid-template-columns: 3fr 2fr;
+    }
+    
+    .contact-us-form {
+        grid-template-columns: 1fr;
     }
 }
